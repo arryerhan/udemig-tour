@@ -21,7 +21,7 @@ const Search = () => {
                 />
             </div>
             <div className="max-w-[1200px] mx-auto ">
-                <h2 className="text-slate-600 text-2xl font-bold text-center mt-8">
+                <h2 className="text-slate-600 text-3xl font-bold text-center mt-8 mb-4">
                     Book Your Trip Now Make Your Dream Come True
                 </h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">

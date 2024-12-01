@@ -5,25 +5,25 @@ import { addItemToCart } from '../redux/cartSlice';
 import { toast } from 'react-toastify';
 
 const DetailsPage = () => {
-    const { productId } = useParams(); // Get productId from the URL params
+    const { productId } = useParams();
 
-    console.log('Product ID from URL:', productId);  // Log productId
+    console.log('Product ID from URL:', productId);
 
     const dispatch = useDispatch();
-    const navigate = useNavigate();  // Use `useNavigate` to navigate
+    const navigate = useNavigate();
 
-    // Get the product list from the Redux store
+
     const products = useSelector((state) => state.products.list);
 
-    // Find the product by ID
+
     const product = products.find((product) => product.id.toString() === productId);
 
-    // If the product is not found, display a message
+
     if (!product) {
         return <div>Product not found!</div>;
     }
 
-    // Add the product to the cart and show a success message
+
     const addToCart = () => {
         dispatch(addItemToCart(product));
         toast.success(`${product.name} added to cart!`, { autoClose: 300 });
@@ -51,7 +51,7 @@ const DetailsPage = () => {
                         </button>
 
                         <button
-                            onClick={() => navigate(-1)}  // Use `navigate(-1)` to go back
+                            onClick={() => navigate(-1)}
                             className="mt-3 bg-slate-500 text-white text-lg py-2 px-4 rounded-md hover:bg-slate-600"
                         >
                             Go Back

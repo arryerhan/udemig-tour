@@ -27,16 +27,12 @@ const CartPage = () => {
     };
 
     const handleClose = () => {
-        // Navigate back to home page
         navigate('/');
     };
 
     const handleCheckout = () => {
-        // For now, we just show a simple alert for checkout
         toast.success('Proceeding to checkout!', { autoClose: 2000 });
-        // You can redirect to a checkout page or show a payment form here
 
-        // Clear the cart after checkout
         dispatch(clearCart());
 
 
