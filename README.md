@@ -1,6 +1,6 @@
 # Udemig Tour
 
-##Description
+## Description
 This website built with React, Redux, Tailwind CSS, and React Toastify. This web application allows users to browse available tours, view details, and book trips to various destinations around the world. It provides a seamless user experience with features like tour search, booking, and notifications on successful bookings.
 
 ## Features
