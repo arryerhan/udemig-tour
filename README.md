@@ -9,7 +9,7 @@ Tour Details: View detailed information about each tour, including pricing
 Notifications: Instant success or error notifications using React Toastify when booking a tour.
 Responsive UI: Fully responsive design built with Tailwind CSS for seamless experience across devices.
 
-##Screenshots
+## Screenshots
 Here is the screenshot of the app to give you a better idea of the UI/UX:
 
 ![screen](https://github.com/user-attachments/assets/5803b789-75ac-4d59-ad84-044eea78b3bf)
